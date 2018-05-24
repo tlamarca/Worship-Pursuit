@@ -12,26 +12,14 @@ html, body {
 	left: 0;
 	height: 100%;
 	width: 100%;
-	margin: 0;
 	background-color: rgb(144, 90, 17);
 	background-image: url(../images/WorshipPursuitBG.jpg);
 	background-size: cover;
 }
-.page-header {
-	background-image: url(../images/WorshipPursuitHeaderBG.jpg);
-	background-size: cover;
-	background-position: bottom right;
-}
-.divider {
-	display: block;
-	height: 3px;
-	min-width: 0px;
-	margin-top: 30px;
-	margin-right: 50px;
-	margin-bottom: 30px;
-	margin-left: 50px;
-	background-color: rgb(255, 247, 232);
-	color: rgb(255, 247, 232);
+.hero-section {
+	position: relative;
+	height: 100%;
+	overflow: scroll;
 }
 
 @media screen and (max-width: 699px){
@@ -60,17 +48,9 @@ html, body {
 		font-size: 16px;
 		line-height: 18px;
 	}
-	.col20,.col40,.col60,.col80 {
-		width: 100%;
-		margin: 0;
-		padding: 0;
-	}
-	.fixed-cover {
-		background-position: 60%;
-	}
 	.container {
 		position: relative;
-		top: 7%;
+		top: 15%;
 	}
 	.w-container {
 		margin-left: auto;
@@ -108,70 +88,6 @@ html, body {
 	h6 {
 		font-size: 20px;
 		line-height: 24px;
-	}
-	h1._2 {
-		font-size: 24px;
-		line-height: 24px;
-	}
-	h2._2 {
-		font-size: 20px;
-		line-height: 26px;
-		padding-top: 0px;
-	}
-	h3._2 {
-		font-size: 18px;
-		line-height: 16px;
-	}
-	
-	h4._2 {
-		font-size: 15px;
-		line-height: 16px;
-	}
-	h5._2 {
-		font-size: 14px;
-		line-height: 16px;
-	}
-	h6._2 {
-		font-size: 14px;
-		line-height: 14px;
-	}
-	.divider {
-		display: block;
-		height: 3px;
-		min-width: 0px;
-		margin-top: 15px;
-		margin-right: 50px;
-		margin-bottom: 15px;
-		margin-left: 50px;
-		background-color: rgb(255, 247, 232);
-		color: rgb(255, 247, 232);
-	}
-	.col20 {
-		width: calc(20% - 20px);
-		margin: 0 0 0 20px;
-		padding: 0;
-		overflow: hidden;
-	}
-	.col40 {
-		width: calc(40% - 20px);
-		margin: 0 0 0 20px;
-		padding: 0;
-		overflow: hidden;
-	}
-	.col60 {
-		width: calc(60% - 20px);
-		margin: 0 0 0 20px;
-		padding: 0;
-		overflow: hidden;
-	}
-	.col80 {
-		width: calc(80% - 20px);
-		margin: 0 0 0 20px;
-		padding: 0;
-		overflow: hidden;
-	}
-	.fixed-cover {
-		background-position: 60%;
 	}
 	.container {
 		position: relative;
@@ -213,9 +129,6 @@ html, body {
 	h6 {
 		font-size: 20px;
 		line-height: 24px;
-	}
-	.fixed-cover {
-		background-position: 60%;
 	}
 	.container {
 		position: relative;
