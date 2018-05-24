@@ -1,0 +1,240 @@
+@charset "UTF-8";
+
+/*
+Worship Pursuit Styles
+©2018
+*/
+
+/* Normalize and Import Fonts */
+@import url("normalize.css");
+@import url('https://fonts.googleapis.com/css?family=Bitter:400,700,400italic|Great Vibes:400|Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic');
+
+/* General Styles */
+
+html,body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+h1,h2,h3,h4,h5,h6 {
+	display: block;
+	font-family: Bitter, serif;
+	text-align: center;
+	letter-spacing: 0;
+	margin-top: 0px;
+	margin-bottom: 1em;
+}
+h1,h2 {
+	font-weight: 400;
+	text-transform: uppercase;
+}
+h3,h4,h5 {
+	font-weight: 300;
+	text-transform: uppercase;
+}
+h6 {
+	font-weight: 300;
+}
+a {
+	text-decoration: none;
+}
+
+.page {
+	position: relative;
+	height: 100%;
+	overflow: scroll;
+}
+.page-header {
+	padding-top: 30px;
+}
+.page-body {
+	
+}
+.page-footer {
+	
+}
+.container {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+.row {
+	clear: both;
+	margin-left: -20px;
+	margin-right: 20px;
+}
+.column {
+	float: left;
+	margin-left: 20px;
+}
+
+/* Elements */
+
+.hero /*.hero-section,.page*/ {
+	position: relative;
+	height: 100%;
+	overflow: scroll;
+}
+/*.hero-div-block {
+	position: inline-block;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	display: block;
+	margin-top: 50px;
+	margin-bottom: 0px;
+	text-align: center;
+}*/
+.logo {
+	position: relative;
+	display: inline-block;
+	transition-property: color;
+	transition-duration: 500ms;
+	transition-timing-function: ease;
+	font-family: "Great Vibes", cursive;
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	text-transform: none;
+}
+.upper-title {
+  margin-bottom: -10px;
+  font-family: "Great Vibes", cursive;
+  color: rgb(255, 247, 232);
+  text-align: center;
+  text-transform: none;
+}
+.middle-title {
+  font-family: Bitter, serif;
+  color: rgb(255, 247, 232);
+  text-align: center;
+  letter-spacing: 2px;
+}
+.lower-title {
+  margin-bottom: 20px;
+  float: none;
+  font-family: Bitter, serif;
+  color: rgb(255, 247, 232);
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+.logomark {
+  max-width: 100%;
+  display: inline-block;
+  margin-top: 60px;
+}
+.divider {
+	display: block;
+	height: 3px;
+	min-width: 0px;
+	margin-top: 30px;
+	margin-right: 50px;
+	margin-bottom: 30px;
+	margin-left: 50px;
+	background-color: rgb(255, 247, 232);
+	color: rgb(255, 247, 232);
+}
+.menu {
+	
+}
+.button {
+	display: inline-block;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	padding-top: 15px;
+	padding-right: 25px;
+	padding-bottom: 15px;
+	padding-left: 25px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(255, 247, 232);
+	box-shadow: none;
+	opacity: 1;
+	transition-property: background-color, color;
+	transition-duration: 500ms, 500ms;
+	transition-timing-function: ease, ease;
+	font-family: Lato, sans-serif;
+	color: rgb(255, 247, 232);
+	font-size: 12px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.button:hover {
+	background-color: rgb(255, 247, 232);
+	color: rgb(0, 0, 0);
+}
+
+/* Animations */
+
+@-webkit-keyframes fadeIn {
+	from {
+		opacity:0;
+		-webkit-transform: translate3d(0, 10%, 0);
+	} to {
+		opacity:1;
+		-webkit-transform: none;
+	}
+}
+@-moz-keyframes fadeIn {
+	from {
+		opacity:0;
+		transform: translate3d(0, 10%, 0);
+	} to {
+		opacity:1;
+		transform: none;
+	}
+}
+@keyframes fadeIn {
+	from {
+		opacity:0;
+		transform: translate3d(0, 10%, 0);
+	} to {
+		opacity:1;
+		transform: none;
+	}
+}
+ 
+.fadein, .fadein-1, .fadein-1_5 {
+	opacity:0;
+	-webkit-animation:fadeIn ease-in 1;
+	-moz-animation:fadeIn ease-in 1;
+	animation:fadeIn ease-in 1;
+	
+	-webkit-animation-fill-mode:forwards;
+	-moz-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+	
+	-webkit-animation-duration:1s;
+	-moz-animation-duration:1s;
+	animation-duration:1s;
+}
+.fadein-1 {
+	-webkit-animation-delay: 1s;
+	-moz-animation-delay: 1s;
+	animation-delay: 1s;
+}
+.fadein-1_5 {
+	-webkit-animation-delay: 1.5s;
+	-moz-animation-delay: 1.5s;
+	animation-delay: 1.5s;
+}
+
+.hover-fade {
+	opacity: .5;
+	transition-property: opacity, top;
+	transition-duration: 500ms, 500ms;
+	transition-timing-function: ease, ease;
+}
+.hover-fade:hover {
+	opacity: .5;
+	top: 5px;
+}
+
+/* Make Responsive */
+
+@import url("responsive.css") screen;
+
