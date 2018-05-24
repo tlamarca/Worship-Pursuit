@@ -1,88 +1,43 @@
-@charset "UTF-8";
-
-html, body {
-	height: 100%;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-}
-.fixed-cover {
-	position: fixed; 
-	top: 0; 
-	left: 0;
-	height: 100%;
-	width: 100%;
-	margin: 0;
-	background-color: rgb(144, 90, 17);
-	background-image: url(../images/WorshipPursuitBG.jpg);
-	background-size: cover;
-}
-.page-header {
-	background-image: url(../images/WorshipPursuitHeaderBG.jpg);
-	background-size: cover;
-	background-position: bottom right;
-}
-.divider {
-	display: block;
-	height: 3px;
-	min-width: 0px;
-	margin-top: 30px;
-	margin-right: 50px;
-	margin-bottom: 30px;
-	margin-left: 50px;
-	background-color: rgb(255, 247, 232);
-	color: rgb(255, 247, 232);
-}
-
-@media screen and (max-width: 699px){
-	h1 {
-		font-size: 45px;
-		line-height: 40px;
+@media (min-width: 400px) {
+	.upper-title {
+		color: rgb(255, 247, 232);
+		font-family: "Great Vibes", cursive;
+		font-size: 30px;
+		margin-bottom: 100px;
+		text-align: center;
+		text-transform: none;
 	}
-	h2 {
-		font-size: 25px;
-		line-height: 20px;
-	}
-	h3 {
+	.middle-title {
+		color: rgb(255, 247, 232);
+		font-family: Bitter, serif;
 		font-size: 20px;
-		line-height: 20px;
-	}
-	
-	h4 {
-		font-size: 18px;
-		line-height: 20px;
-	}
-	h5 {
-		font-size: 16px;
-		line-height: 20px;
-	}
-	h6 {
-		font-size: 16px;
-		line-height: 18px;
-	}
-	.col20,.col40,.col60,.col80 {
-		width: 100%;
-		margin: 0;
-		padding: 0;
-	}
-	.fixed-cover {
-		background-position: 60%;
-	}
-	.container {
-		position: relative;
-		top: 7%;
-	}
-	.w-container {
-		margin-left: auto;
-		margin-right: auto;
-		max-width: 90%;
-	}
-	.logo {
-		width: 100%;
+		letter-spacing: 5px;
+		margin-bottom: 0;
 		text-align: center;
 	}
+	.lower-title {
+		color: rgb(255, 247, 232);
+		font-family: Bitter, serif;
+		font-size: 12px;
+		margin-bottom: 0;
+		letter-spacing: .2em;
+	}
+	.logomark {
+		display: block;
+		margin: 60px auto;
+	}
+	.divider {
+		background-color: rgb(255, 247, 232);
+		color: rgb(255, 247, 232);
+		display: block;
+		height: 3px;
+		margin-top: 10px;
+		margin-right: 50px;
+		margin-bottom: 10px;
+		margin-left: 50px;
+		min-width: 0px;
+	}
 }
-
 @media screen and (min-width: 700px) and (max-width: 780px){
 	h1 {
 		font-size: 70px;
