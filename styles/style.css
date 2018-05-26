@@ -104,7 +104,6 @@ input[type="radio"] {
 .row {
 	display: inline-block;
 	width: 100%;
-	
 }
 .row:after {
     content: ".";
