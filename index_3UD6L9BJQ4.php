@@ -1,3 +1,4 @@
+<<<<<<< HEAD:index_3UD6L9BJQ4.php
 <!doctype html>
 <html>
 	<head>
@@ -46,19 +47,35 @@
 		     fjs.parentNode.insertBefore(js, fjs);
 		   }(document, 'script', 'facebook-jssdk'));
 		</script>
-		<div class="fixed-cover"></div>
-		<div class="hero-section">
-			<div class="container w-container">
-				<div class="logo" style="transition: color 0.5s ease 0s, opacity 500ms, transform 500ms; opacity: 1; transform: translateX(0px) translateY(0px) translateZ(0px) scaleX(1) scaleY(1) scaleZ(1);">
-					<h2 class="fadein upper-title">Glory in The Lord</h2>
-					<div class="fadein divider"></div>
-					<h1 class="fadein middle-title">Worship Pursuit<br></h1>
-					<div class="fadein divider"></div>
-					<h5 class="fadein third-title">PS.34</h5>
-					<h3 class="fadein bottom-title">Coming Soon</h3>
-					<img class="logomark" src="images/WorshipPursuitLogomark.svg" width="100" alt="Worship Pursuit Logo">
+		<div class="fixed-bg"></div>
+			<div class="page">
+				<div class="container">
+					<div class="hero">
+						<span class="logo fadein fadein-1">
+							<h2 class="upper-title">Glory in The Lord</h2>
+							<div class="divider"></div>
+							<h1 class="middle-title">Worship Pursuit<br></h1>
+							<div class="divider"></div>
+							<h5 class="lower-title">PS.34</h5>
+						</span>
+						<ul class="nav fadein fadein-2">
+							<li><a href="/about" class="button">What is Worship Pursuit?</a></li>
+							<li><a href="/sign-up" class="button">Join The List</a></li>
+							<li><a href="/share" class="button">Spread The Word</a></li>
+						</ul>
+						<img class="logomark fadein fadein-3" src="images/WorshipPursuitLogomark.svg" width="100%" alt="Worship Pursuit">
+					</div>
+					<div class="page-footer">
+						<p><?php echo date("Y"); ?></p>
+					</div>
 				</div>
 			</div>
 		</div>
 	</body>
 </html>
+<?php
+echo "<mm:dwdrfml documentRoot=" . __FILE__ .">";$included_files = get_included_files();foreach ($included_files as $filename) { echo "<mm:IncludeFile path=" . $filename . " />"; } echo "</mm:dwdrfml>";
+?>
+=======
+coming soon.
+>>>>>>> master:about.html

@@ -1,3 +1,13 @@
+<<<<<<< HEAD
+@media (min-width: 400px) {
+	.upper-title {
+		color: rgb(255, 247, 232);
+		font-family: "Great Vibes", cursive;
+		font-size: 30px;
+		margin-bottom: 100px;
+		text-align: center;
+		text-transform: none;
+=======
 @charset "UTF-8";
 
 html, body {
@@ -30,9 +40,24 @@ html, body {
 	h2 {
 		font-size: 25px;
 		line-height: 20px;
+>>>>>>> master
 	}
-	h3 {
+	.middle-title {
+		color: rgb(255, 247, 232);
+		font-family: Bitter, serif;
 		font-size: 20px;
+<<<<<<< HEAD
+		letter-spacing: 5px;
+		margin-bottom: 0;
+		text-align: center;
+	}
+	.lower-title {
+		color: rgb(255, 247, 232);
+		font-family: Bitter, serif;
+		font-size: 12px;
+		margin-bottom: 0;
+		letter-spacing: .2em;
+=======
 		line-height: 20px;
 	}
 	
@@ -51,18 +76,24 @@ html, body {
 	.container {
 		position: relative;
 		top: 15%;
+>>>>>>> master
 	}
-	.w-container {
-		margin-left: auto;
-		margin-right: auto;
-		max-width: 90%;
+	.logomark {
+		display: block;
+		margin: 60px auto;
 	}
-	.logo {
-		width: 100%;
-		text-align: center;
+	.divider {
+		background-color: rgb(255, 247, 232);
+		color: rgb(255, 247, 232);
+		display: block;
+		height: 3px;
+		margin-top: 10px;
+		margin-right: 50px;
+		margin-bottom: 10px;
+		margin-left: 50px;
+		min-width: 0px;
 	}
 }
-
 @media screen and (min-width: 700px) and (max-width: 780px){
 	h1 {
 		font-size: 70px;
