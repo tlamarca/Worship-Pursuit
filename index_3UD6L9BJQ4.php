@@ -50,22 +50,28 @@
 			<div class="page">
 				<div class="container">
 					<div class="hero">
-						<span class="logo">
-							<h2 class="upper-title fadein fadein-1">Glory in The Lord</h2>
-							<div class="divider fadein fadein-1"></div>
-							<h1 class="middle-title fadein fadein-1">Worship Pursuit<br></h1>
-							<div class="divider fadein fadein-1"></div>
-							<h5 class="lower-title fadein fadein-1">PS.34</h5>
+						<span class="logo fadein fadein-1">
+							<h2 class="upper-title">Glory in The Lord</h2>
+							<div class="divider"></div>
+							<h1 class="middle-title">Worship Pursuit<br></h1>
+							<div class="divider"></div>
+							<h5 class="lower-title">PS.34</h5>
 						</span>
-						<ul class="menu fadein fadein-2">
+						<ul class="nav fadein fadein-2">
 							<li><a href="/about" class="button">What is Worship Pursuit?</a></li>
 							<li><a href="/sign-up" class="button">Join The List</a></li>
 							<li><a href="/share" class="button">Spread The Word</a></li>
 						</ul>
 						<img class="logomark fadein fadein-3" src="images/WorshipPursuitLogomark.svg" width="100%" alt="Worship Pursuit">
 					</div>
+					<div class="page-footer">
+						<p><?php echo date("Y"); ?></p>
+					</div>
 				</div>
 			</div>
 		</div>
 	</body>
 </html>
+<?php
+echo "<mm:dwdrfml documentRoot=" . __FILE__ .">";$included_files = get_included_files();foreach ($included_files as $filename) { echo "<mm:IncludeFile path=" . $filename . " />"; } echo "</mm:dwdrfml>";
+?>

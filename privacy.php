@@ -50,26 +50,41 @@
 			<div class="page-header">
 				<div class="container">
 					<div class="row">
-						<div class="logo">
-							<div class="column col40">
+						<div class="col40">
+							<span class="logo">
 								<a href="http://worshippursuit.com" class="hover-fade">
-									<h2 class="fadein-1 upper-title _2">Glory in The Lord</h2>
-									<div class="fadein-1 divider"></div>
-									<h1 class="fadein-1 middle-title _2">Worship Pursuit<br></h1>
-									<div class="fadein-1 divider"></div>
-									<h5 class="fadein-1 lower-title _2">PS.34</h5>
+									<span class="upper-title _2">Glory in The Lord</span>
+									<div class="divider"></div>
+									<span class="middle-title _2">Worship Pursuit<br></span>
+									<div class="divider"></div>
+									<span class="lower-title _2">PS.34</span>
 								</a>
-							</div>
-							<!div class="float_l col20">
-								<!img class="fadein-1 logomark _2" src="/images/WorshipPursuitLogomark.svg" width="40" alt="Worship Pursuit Logo">
-							<!/div>
-							<div class="column  col60">
-								<a href="/about" class="fadein-1_5 button">What is Worship Pursuit?</a>
-								<a href="/sign-up" class="fadein-1_5 button">Join The List</a>
-								<a href="/share" class="fadein-1_5 button">Spread The Word</a>
-							</div>
+							</span>
+						</div>
+						<!div class="float_l col20">
+							<!img class="fadein-1 logomark _2" src="/images/WorshipPursuitLogomark.svg" width="40" alt="Worship Pursuit Logo">
+						<!/div>
+						<div class="col60">
+							<ul class="nav">
+								<li><a href="/about" class="button">What is Worship Pursuit?</a></li>
+								<li><a href="/sign-up" class="button">Join The List</a></li>
+								<li><a href="/share" class="button current">Spread The Word</a></li>
+							</ul>
 						</div>
 					</div>
+				</div>
+			</div>
+			<div class="page-body">
+				<div class="container">
+					<h1>Heading 1</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<h2>Heading 2</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<h3>Heading 3</h3>
+					<h4>Heading 4</h4>
+					<h5>Heading 5</h5>
+					<h6>Heading 6</h6>
 				</div>
 			</div>
 		</div>
