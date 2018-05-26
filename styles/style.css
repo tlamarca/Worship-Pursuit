@@ -132,22 +132,12 @@ Elements
 	background-size: cover;
 	background-position: 65%;
 }
-.hero /*.hero-section,.page*/ {
+.hero {
 	display: block;
 	margin: 0 auto;
 	overflow: scroll;
 	position: relative;
 }
-/*.hero-div-block {
-	position: inline-block;
-	left: 0px;
-	right: 0px;
-	bottom: 0px;
-	display: block;
-	margin-top: 50px;
-	margin-bottom: 0px;
-	text-align: center;
-}*/
 .logo {
 	color: white;
 	display: block;
@@ -984,7 +974,6 @@ Landscape
 		font-size: 10px;
 		margin: 0 0 1em;
 	}
-}
 }
 @media only print{
 	.container {
