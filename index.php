@@ -58,9 +58,9 @@
 							<h5 class="lower-title">PS.34</h5>
 						</span>
 						<ul class="nav fadein fadein-2">
-							<li><a href="/about" class="button">What is Worship Pursuit?</a></li>
-							<li><a href="/sign-up" class="button">Join The List</a></li>
-							<li><a href="/share" class="button">Spread The Word</a></li>
+							<li><a href="/about.php" class="button">What is Worship Pursuit?</a></li>
+							<li><a href="/sign-up.php" class="button">Join The List</a></li>
+							<li><a href="/share.php" class="button">Spread The Word</a></li>
 						</ul>
 						<img class="logomark fadein fadein-3" src="images/WorshipPursuitLogomark.svg" width="100%" alt="Worship Pursuit">
 					</div>
