@@ -1,3 +1,4 @@
+<<<<<<< HEAD:index_3UD6L9BJQ4.php
 <!doctype html>
 <html>
 	<head>
@@ -75,3 +76,6 @@
 <?php
 echo "<mm:dwdrfml documentRoot=" . __FILE__ .">";$included_files = get_included_files();foreach ($included_files as $filename) { echo "<mm:IncludeFile path=" . $filename . " />"; } echo "</mm:dwdrfml>";
 ?>
+=======
+coming soon.
+>>>>>>> master:about.html
