@@ -14,7 +14,7 @@
 		<meta property="og:description" content="Worship is our response to the presence of God. It is an encounter with God. This side of heaven, there will always be room to deepen our devotion and worship, and so we take steps to cultivate our worship and pursue God.">
 		<meta property="og:url" content="http://worshippursuit.com">
 		<meta property="og:image" content="http://worshippursuit.com/images/WorshipPursuitOG.jpg">
-		<meta property="og:updated_time" content=" 2018-05-19T00:00:00+00:00 ">
+		<meta property="og:updated_time" content=" 2018-05-26T00:00:00+00:00 ">
 		<meta property="fb:app_id" content="2134927966737278">
 		<meta name="twitter:card" content="summary_large_image">
 		<meta name="twitter:site" content="@WorshipPursuit">

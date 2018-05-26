@@ -3,25 +3,25 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		<title>What is Worship Pursuit?</title>
-		<meta name="description" content="Worship is our response to the presence of God. It is an encounter with God. This side of heaven, there will always be room to deepen our devotion and worship, and so we take steps to cultivate our worship and pursue God.">
+		<title>Invite Your Friends to Join</title>
+		<meta name="description" ontent="COMING SOON"><!--Worship is our response to the presence of God. It is an encounter with God. This side of heaven, there will always be room to deepen our devotion and worship, and so we take steps to cultivate our worship and pursue God.-->
 		<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 		<link href="styles/style.css" rel="stylesheet" type="text/css">
 		<meta name="theme-color" content="#905A11">
 		<meta property="og:locale" content="en_US">
 		<meta property="og:type" content="website">
-		<meta property="og:title" content="What is Worship Pursuit?">
-		<meta property="og:description" content="Worship is our response to the presence of God. It is an encounter with God. This side of heaven, there will always be room to deepen our devotion and worship, and so we take steps to cultivate our worship and pursue God.">
-		<meta property="og:url" content="http://worshippursuit.com/about">
+		<meta property="og:title" content="Invite Your Friends to Join">
+		<meta property="og:description" ontent="COMING SOON"><!--Worship is our response to the presence of God. It is an encounter with God. This side of heaven, there will always be room to deepen our devotion and worship, and so we take steps to cultivate our worship and pursue God.-->
+		<meta property="og:url" content="http://worshippursuit.com/sign-up/">
 		<meta property="og:image" content="http://worshippursuit.com/images/WorshipPursuitOG.jpg">
-		<meta property="og:updated_time" content=" 2018-05-19T00:00:00+00:00 ">
+		<meta property="og:updated_time" content=" 2018-05-26T00:00:00+00:00 ">
 		<meta property="fb:app_id" content="2134927966737278">
 		<meta name="twitter:card" content="summary_large_image">
 		<meta name="twitter:site" content="@WorshipPursuit">
 		<meta name="twitter:creator" content="@WorshipPursuit">
-		<meta name="twitter:title" content="What is Worship Pursuit?">
-		<meta name="twitter:url" content="http://worshippursuit.com/about/">
-		<meta name="twitter:description" content="Worship is our response to the presence of God. It is an encounter with God. This side of heaven, there will always be room to deepen our devotion and worship, and so we take steps to cultivate our worship and pursue God."> 
+		<meta name="twitter:title" content="Invite Your Friends to Join">
+		<meta name="twitter:url" content="http://worshippursuit.com/sign-up/">
+		<meta name="twitter:description" ontent="COMING SOON"><!--Worship is our response to the presence of God. It is an encounter with God. This side of heaven, there will always be room to deepen our devotion and worship, and so we take steps to cultivate our worship and pursue God.-->
 		<meta name="twitter:image" content="http://worshippursuit.com/images/WorshipPursuitOG.jpg">
 	</head>
 	<body>
@@ -76,7 +76,7 @@
 			</div>
 			<div class="page-body">
 				<div class="container">
-					<!-- Begin MailChimp Signup Form -->
+					<!-- Begin MailChimp Signup Form 
 					<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
 					<style type="text/css">
 						#mc_embed_signup{background:#fff; clear:left; }
@@ -134,13 +134,25 @@
 							<div id="mce-responses" class="clear">
 								<div class="response" id="mce-error-response" style="display:none"></div>
 								<div class="response" id="mce-success-response" style="display:none"></div>
-							</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+							</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups
 							<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_65f18aedac0a75ed1f148d441_8d9b0545cf" tabindex="-1" value=""></div>
 							<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
 						</div>
 					</form>
 					</div>
 					<!--End mc_embed_signup-->
+					<h1>COMING SOON</h1>
+					<h2>COMING SOON</h2>
+					<h3>COMING SOON</h3>
+					<h4>COMING SOON</h4>
+					<h5>COMING SOON</h5>
+					<h6>COMING SOON</h6>
+					<p>COMING SOON</p>
+				</div>
+			</div>
+			<div class="page-footer">
+				<div class="container">
+					&copy; <?php echo date("Y"); ?> <a href="http://worshippursuit.com">WorshipPursuit.com</a>
 				</div>
 			</div>
 		</div>

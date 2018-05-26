@@ -74,6 +74,7 @@ input[type="radio"] {
 	margin-right: .5em;
 }
 .page {
+	background-color: rgba(144, 90, 17, .1);
 	height: 100%;
 	overflow: scroll;
 	position: relative;
@@ -86,12 +87,12 @@ input[type="radio"] {
 	padding-top: 1em;
 }
 .page-body {
-	background-color: rgba(144, 90, 17, .1);
+	height: 100%;
 	padding: 2em;
 }
 .page-footer {
 	background-color: rgba(0,0,0,.4);
-	color: rgb(120,120,120);
+	color: rgb(200,200,200);
 	font-size: .8em;
 	font-weight: 300;
 	margin-top: 7em;
@@ -99,7 +100,7 @@ input[type="radio"] {
 	text-align: center;
 }
 .page-footer a {
-	color: rgb(120,120,120);
+	color: rgb(200,200,200);
 }
 .container {
 	display: block;
