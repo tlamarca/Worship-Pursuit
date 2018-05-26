@@ -1,21 +1,15 @@
 @charset "UTF-8";
 /*
-
 Worship Pursuit Styles
 ©2018
-
 */
 /*
-
 Normalize and Import Fonts
-
 */
 @import url("normalize.css");
 @import url('https://fonts.googleapis.com/css?family=Bitter:400,700,400italic|Great Vibes:400|Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic');
 /*
-
 General Styles
-
 */
 html,body {
 	background-color: #e7e7e7;
@@ -128,9 +122,7 @@ input[type="radio"] {
 	width: 100%;
 }
 /*
-
 Elements
-
 */
 .fixed-bg {
 	position: fixed;
@@ -222,9 +214,7 @@ a.logo:hover {
 	width: 200px;
 }
 /*
-
 Menu
-
 */
 .nav {
 	display: block;
@@ -272,9 +262,7 @@ Menu
 	color: rgb(0, 0, 0);
 }
 /*
-
 Animations
-
 */
 @-webkit-keyframes fadeIn {
 	from {
@@ -337,9 +325,7 @@ Animations
 	animation-delay: 3.4s;
 }
 /*
-
 Mail Chimp Form
-
 */
 #mc_embed_signup form {
 	padding: 10px 3% !important;
@@ -364,14 +350,10 @@ Mail Chimp Form
 	margin-right: 15px;
 }
 /*
-
 Make Responsive
-
 */
 /*
-
 Portrait
-
 */
 @media only screen and (min-width: 410px) and (max-width: 599px) and (orientation: portrait) {
 /* Elements */
@@ -622,9 +604,7 @@ Portrait
 	}
 }
 /*
-
 Landscape
-
 */
 @media only screen and (min-width: 400px) and (max-width: 779px) and (orientation: landscape) {
 /* General Styles */
